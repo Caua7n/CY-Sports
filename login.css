@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(135deg, #021e7c, #002fff);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-signin {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-signin .btn {
+    background-color: #712cf9;
+    border: none;
+}
+
+.form-signin .btn:hover {
+    background-color: #6528e0;
+}
+
+.form-floating label {
+    color: #6c757d;
+}
+
+.form-floating input {
+    border-radius: 5px;
+}
+
+.form-check-label {
+    color: #6c757d;
+}
+
+.register-link {
+    color: #712cf9;
+    text-decoration: none;
+}
+
+.register-link:hover {
+    text-decoration: underline;
+}
